@@ -23,11 +23,13 @@ CodeDeploy is used to automate code deployments.  It can be used to deploy your 
 The udemy course appears to be pretty dated and I struggled to find the right ami I could use to run the supplied CloudFormation Template.  I did learn that the Amazon Linux 2 did not have all the needed packages and so the CodeDeploy demos didn't work.  Replacing this with the Amazon Linux AMI worked.  It's likely that the "broken" Linux AMI didn't have ruby pre-installed.  Also note that AMIs are region specific.
 
 When creating revisions, the basic directory structure is
+
+```
 .
 ├── appspec.yml
 ├── files
 └── scripts
-
+```
 Within the files directory, you'll place all the files that you'll be copying to the target servers.  These are the source files (such as text and binary files, executables, packages, and so on).  
 
 With the scripts directory, you'll have all the scripts needed for your lifecycle event hooks, for instance the scripts needed to be run BeforeInstall, AfterInstall, ApplicationStart, ApplicationStop and so on.  
