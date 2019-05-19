@@ -1,11 +1,11 @@
-# [AWS Code Deploy](https://docs.aws.amazon.com/codedeploy/index.html) Notes
+# [AWS Code Deploy](https://docs.aws.amazon.com/codedeploy/index.html)
 
 ======
 
 ## My study path
 
 * Read the FAQ
-* Try the tutorial
+* [Tutorial](https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials.html)
 * [AWS CodeDeploy Udemy Course](https://www.udemy.com/aws-codedeploy/)
 
 ## Terminology/Glossary
@@ -36,7 +36,11 @@ Within the files directory, you'll place all the files that you'll be copying to
 
 With the scripts directory, you'll have all the scripts needed for your lifecycle event hooks, for instance the scripts needed to be run BeforeInstall, AfterInstall, ApplicationStart, ApplicationStop and so on.  
 
-To install CodeDeploy manually
+To install CodeDeploy
+
+[Launch Configuration/UserData](https://aws.amazon.com/premiumsupport/knowledge-center/codedeploy-agent-launch-configuration/)
+
+Manually
 ```
 sudo yum update
 sudo yum install ruby
