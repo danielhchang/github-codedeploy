@@ -1,6 +1,4 @@
-# [AWS Code Deploy](https://docs.aws.amazon.com/codedeploy/index.html) Notes
-
-======
+# [AWS Code Deploy](https://docs.aws.amazon.com/codedeploy/index.html)
 
 ## My study path
 
